@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47d76cdb-e721-4e6c-b165-557dc7f0ca7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/back.iml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/migrations/0002_auto_20190805_1503.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/migrations/0002_auto_20190805_1503.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/circle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/circle/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/circle/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/circle/celery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/circle/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/circle/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/circle/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/circle/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/circle/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/circle/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/common/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/static/article/static/articles/cover/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/static/article/static/articles/cover/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/static/article/static/articles/cover/img_Qqq8yTa.png" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/static/article/static/articles/cover/img_Qqq8yTa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/static/article/static/articles/cover/img_lN5xPe0.png" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/static/article/static/articles/cover/img_lN5xPe0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/static/article/static/articles/cover/img_oS1fb3v.png" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/static/article/static/articles/cover/img_oS1fb3v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/static/article/static/articles/cover/img_yh7nNyh.png" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/static/article/static/articles/cover/img_yh7nNyh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/static/article/static/articles/type_cover/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/static/article/static/articles/type_cover/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle1.0/users/views.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebf67395-f89d-4c27-a7b4-f481446850e1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/migrations/0002_auto_20190805_1503.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle/articles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/common/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle/users/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/circle/users/util.py" afterDir="false" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="users_verificationcode: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle/articles/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/circle1.0/articles/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+=======
+        <entry file="file://$PROJECT_DIR$/circle/articles/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-236">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="das://d3ceaa44-68c2-4b0f-b9a3-669083813603/schema/main/table/articles_articletype">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="b48c12a3-27c0-4468-9e9e-248d814a3bc1">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle1.0/articles/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="50" column="49" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="49" />
+=======
+        <entry file="file://$PROJECT_DIR$/circle/users/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle1.0/circle/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle1.0/articles/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>itsdangerous</find>
+      <find>tjs</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/circle/common/admin.py" />
+        <option value="$PROJECT_DIR$/circle/users/apps.py" />
+        <option value="$PROJECT_DIR$/circle/users/__init__.py" />
+        <option value="$PROJECT_DIR$/circle/users/admin.py" />
+        <option value="$PROJECT_DIR$/circle/circle/urls.py" />
+        <option value="$PROJECT_DIR$/circle/circle/settings.py" />
+        <option value="$PROJECT_DIR$/circle/users/urls.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/circle/users/views.py" />
+        <option value="$PROJECT_DIR$/circle/common/models.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/circle/articles/views.py" />
+        <option value="$PROJECT_DIR$/circle1.0/users/urls.py" />
+        <option value="$PROJECT_DIR$/circle1.0/circle/urls.py" />
+        <option value="$PROJECT_DIR$/circle1.0/users/models.py" />
+        <option value="$PROJECT_DIR$/circle1.0/users/send_email.py" />
+        <option value="$PROJECT_DIR$/circle1.0/tt.py" />
+        <option value="$PROJECT_DIR$/circle1.0/users/util.py" />
+        <option value="$PROJECT_DIR$/circle1.0/users/views.py" />
+        <option value="$PROJECT_DIR$/circle1.0/articles/urls.py" />
+        <option value="$PROJECT_DIR$/circle1.0/articles/views.py" />
+        <option value="$PROJECT_DIR$/circle1.0/circle/settings.py" />
+=======
+        <option value="$PROJECT_DIR$/circle/users/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/circle/articles/models.py" />
+        <option value="$PROJECT_DIR$/circle/articles/admin.py" />
+        <option value="$PROJECT_DIR$/circle/articles/urls.py" />
+        <option value="$PROJECT_DIR$/circle/articles/views.py" />
+        <option value="$PROJECT_DIR$/circle/users/util.py" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="166" />
+    <option name="y" value="45" />
+    <option name="width" value="1580" />
+    <option name="height" value="979" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="circle1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="circle1.0" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="circle" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="circle1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="circle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\quaner_box\back\circle\static\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tt">
+    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="back" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/circle1.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/circle1.0/tt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="back" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/circle/users" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/circle/users/util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tt" />
+        <item itemvalue="Python.util" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47d76cdb-e721-4e6c-b165-557dc7f0ca7d" name="Default Changelist" comment="" />
+      <created>1564730256666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564730256666</updated>
+      <workItem from="1564730258911" duration="9921000" />
+      <workItem from="1564740523500" duration="98000" />
+      <workItem from="1564886527677" duration="2488000" />
+<<<<<<< HEAD
+      <workItem from="1566542905893" duration="7692000" />
+=======
+      <workItem from="1565419434273" duration="2893000" />
+      <workItem from="1565516486408" duration="2393000" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="20199000" />
+=======
+    <option name="totallyTimeSpent" value="17793000" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20065077" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15214477" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3394794" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27765727" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.17280453" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.20469083" />
+      <window_info anchor="right" id="SciView" order="4" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.1433902" />
+=======
+      <window_info anchor="right" id="Database" order="5" weight="0.3016086" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/back$util.coverage" NAME="util Coverage Results" MODIFIED="1564738031303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/circle/users" />
+    <SUITE FILE_PATH="coverage/back$tt.coverage" NAME="tt Coverage Results" MODIFIED="1566549167600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/circle1.0" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/circle/common/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ebf67395-f89d-4c27-a7b4-f481446850e1/schema/main/table/users_auth" />
+    <entry file="file://$PROJECT_DIR$/circle/users/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/vritualenv/circle/Lib/site-packages/django/contrib/auth/base_user.py" />
+    <entry file="file://D:/vritualenv/circle/Lib/site-packages/django/conf/__init__.py" />
+    <entry file="file://D:/vritualenv/circle/Lib/site-packages/django/http/response.py" />
+    <entry file="file://$PROJECT_DIR$/circle/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/circle/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="18" column="11" selection-start-line="18" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="118">
+            <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/common/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/circle/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/vritualenv/spilit_file/Lib/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="485" column="6" selection-start-line="485" selection-start-column="6" selection-end-line="485" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/users/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e9423762-e91f-4d19-889d-ba4cb86b625e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://e9423762-e91f-4d19-889d-ba4cb86b625e/schema/main/table/articles_articletype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/articles/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/articles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e9423762-e91f-4d19-889d-ba4cb86b625e/schema/main/table/users_auth">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="53" column="69" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/vritualenv/spilit_file/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/articles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/circle/common/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="58" />
+=======
+    <entry file="file://D:/vritualenv/spilit_file/Lib/site-packages/django/http/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="374" column="8" selection-start-line="374" selection-start-column="8" selection-end-line="374" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/vritualenv/spilit_file/Lib/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/vritualenv/spilit_file/Lib/site-packages/rest_framework/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="420" column="8" selection-start-line="420" selection-start-column="8" selection-end-line="420" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/users/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/circle/articles/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle/articles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/articles/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/circle/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/tt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/users/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="60" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/users/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="87" column="73" lean-forward="true" selection-start-line="87" selection-start-column="73" selection-end-line="87" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d3ceaa44-68c2-4b0f-b9a3-669083813603/schema/main/table/users_verificationcode">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b48c12a3-27c0-4468-9e9e-248d814a3bc1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/circle/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/articles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/articles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d3ceaa44-68c2-4b0f-b9a3-669083813603/schema/main/table/articles_articletype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b48c12a3-27c0-4468-9e9e-248d814a3bc1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle1.0/articles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+=======
+    <entry file="file://$PROJECT_DIR$/circle/articles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+>>>>>>> 72ae3e88d7d1fc18897b0c53c915643d935cbd93
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
