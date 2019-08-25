@@ -67,10 +67,22 @@ class SignInView(APIView):
 
 
 class RegisterView(APIView):
+    def get(self, request, *args, **kwargs):
+        email = request.GET.get('email', '')
+        if email != '':
+            try:
+                user = Auth.objects.get(email=email)
+                return Response({'code': -2, 'msg':'邮箱已被注册'})
+            except Exception as e:
+                print(e)
+                return Response({"code": 0})
+        else:
+            return Response(status=400)
+
     def post(self, request, *args, **kwargs):
         email = request.POST['email']
         password = request.POST['password']
-        code = request.POST['code']
+        code = request.POST['code'].upper()
         if util.validateEmail(email):
             # 验证邮箱有效性
             codeObj = VerificationCode.objects.get(code=code, email=email)

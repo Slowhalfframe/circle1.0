@@ -4,6 +4,9 @@ from users.util import tokenIS
 from users.models import Auth
 from articles import models
 from django.http import QueryDict
+from rest_framework.views import APIView
+from rest_framework.views import Response
+from articles.serializers import DetailSerializer
 
 
 def request_body_serialze(request):
@@ -16,6 +19,26 @@ def request_body_serialze(request):
         pass
     return response_dict
 
+
+# def ArticleDetai(request, articleID):
+#     if request.method.lower() == 'get':
+#         article = models.Article.objects.get(pk=articleID)
+#         detail = {'id': article.id, 'title': article.title, 'content': article.content,}
+
+class ArticleDetai(APIView):
+    def get(self, request, id):
+        # id = request.GET.get('id', '')
+        print(id)
+        if id != '':
+            try:
+                detail = models.Article.objects.get(pk=id)
+                data = DetailSerializer(detail)
+                return Response(data.data)
+            except Exception as e:
+                print(e)
+                return Response(status=404)
+        else:
+            return Response(status=400)
 
 @tokenIS
 def Article(request):

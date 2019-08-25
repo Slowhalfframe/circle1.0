@@ -65,7 +65,7 @@ class SendEmail():
         # if issave:
         #     obj = VerificationCode(email=self.address, code=randomNum)
         # obj.save()
-        VerificationCode.objects.update_or_create(email=self.address, defaults={'code': randomNum, 'create_time': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')})
+        VerificationCode.objects.update_or_create(email=self.address, defaults={'code': randomNum.upper(), 'create_time': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')})
         # 3. 发送
         mail_msg = '您的注册验证码为:{0}! 30分钟内有效！！'.format(randomNum)
         msg = self.Write(mail_msg)
